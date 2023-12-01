@@ -1,0 +1,17 @@
+[package]
+name = "_cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# for watching files, and executing functions when they change
+# notify = "6.1.1"
+
+# for recursively traversing folders
+# walkdir = "2.4.0"
+
+# light-weightish CLI builder
+xflags = "0.3.1"
